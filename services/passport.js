@@ -8,7 +8,7 @@ const ExtractJwt = require('passport-jwt').ExtractJwt;
 const jwtOptions = {
   // look at authorization header to find token
   jwtFromRequest: ExtractJwt.fromHeader('authorization'),
-  secret: config.secret
+  secretOrKey: config.secret
 };
 
 // create jwt strategy
