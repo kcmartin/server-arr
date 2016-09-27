@@ -1,3 +1,2 @@
 # server-arr
-Setting up server-part 1 in authentication project -- using node, express, redux, react
-
+Server setup-server side of authentication project -- using node, express, bcrypt, passport, mongodb
