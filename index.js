@@ -1,5 +1,5 @@
 // Main starting point of the application
-// using earlier nodejs, so no import statements
+// using earlier nodejs, so no 'import' statements
 const express = require('express');
 const http = require('http');
 const bodyParser = require('body-parser');
